@@ -70,6 +70,7 @@ const { virtex9 } = require('./virtex/virtex9')
 const { ngazap } = require('./virtex/ngazap')
 const { virtag } = require('./virtex/virtag')
 const { emoji2 } = require('./virtex/emoji2')
+const { online } = require('./urbaeexyz/onlinecount.txt')
 const { herodetails } = require('./lib/herodetail.js')
 const { herolist } = require('./lib/herolist.js')
 const { fetchJson, getBase64, kyun, createExif } = require("./lib/fetcher");
@@ -146,7 +147,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@6281282655499"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -473,7 +474,7 @@ const math = (teks) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "6289523258649-1604595598@g.us",
+        remoteJid: "6285215674408-1@g.us",
       },
       message: {
         orderMessage: {
@@ -482,7 +483,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "ConfuBot4",
+          orderTitle: "GrowtopiaPrivateServer",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -784,7 +785,7 @@ if (!itsMe && !isOwner)return
       key: {
         fromMe: false,
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {}),
+        ...(from ? { remoteJid: "6285215674408@s.whatsapp.net" } : {}),
       },
       message: {
         productMessage: {
@@ -793,11 +794,11 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`),
             },
-            title: "ConfuBot4",
-            description: "Bot24/7",
+            title: "C4",
+            description: "Bomb",
             currencyCode: "USD",
-            priceAmount1000: "2000",
-            retailerId: "By ConfuMods",
+            priceAmount1000: "2000000",
+            retailerId: "Made by isis",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -1269,8 +1270,8 @@ groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "51923568749@s.whatsapp.net"
-        dtod = '51923568749'
+        ptod = "6285215674408@s.whatsapp.net"
+        dtod = '6285215674408'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1531,7 +1532,7 @@ buttons = [{buttonId: `futa`,buttonText:{displayText: `➡️Next`},type:1}]
 break
 case 'creditos':
 if (isBanned) return  reply(mess.banned)
-   dtod = '51923568749'
+   dtod = '6285215674408'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑜𝑠 ] :
    
